@@ -6382,7 +6382,7 @@ export const mockAccounts: Account[] = [
     bank_details: {
       account_type: 'Checking',
       isAccountNumber: true,
-      balance_usd: 24000.0
+      balance_usd: 29100.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -6392,6 +6392,12 @@ export const mockAccounts: Account[] = [
       wireDate: true
     },
     transaction_history: [
+      {
+        dateTime: 'October 8, 2025',
+        description: 'Deposit from Trust wallet - XXXXXX3473',
+        status: 'Success',
+        amount_usd: 5100.0
+      },
       {
         dateTime: 'July 26, 2025',
         description: 'Deposit from coinbase - XXXXXX1029',
