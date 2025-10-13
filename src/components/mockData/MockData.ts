@@ -6382,7 +6382,7 @@ export const mockAccounts: Account[] = [
     bank_details: {
       account_type: 'Checking',
       isAccountNumber: true,
-      balance_usd: 30100.0
+      balance_usd: 0.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -6395,19 +6395,19 @@ export const mockAccounts: Account[] = [
       {
         dateTime: 'October 10, 2025',
         description: 'Transaction fee - XXXXXX7353',
-        status: 'Pending',
+        status: 'Processing',
         amount_usd: -100.0
       },
       {
         dateTime: 'October 10, 2025',
         description: 'Transfer to Revolut Acct ending in 5218 - XXXXXX7745',
-        status: 'Pending',
+        status: 'Processing',
         amount_usd: 30000.0
       },
       {
         dateTime: 'October 9, 2025',
         description: 'Deposit from Trust wallet - XXXXXX2456',
-        status: 'Pending',
+        status: 'Processing',
         amount_usd: 1000.0
       },
       {

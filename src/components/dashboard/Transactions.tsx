@@ -56,7 +56,17 @@ export default function Transactions() {
                   <span className={`font-[600] ${transaction.amount_usd < 0 ? 'text-red-600' : ''} ${Math.abs(transaction.amount_usd) >= 1_000_000_000 ? 'text-xs' : 'text-sm'}`}>
                     {formatCurrency(transaction.amount_usd)}
                   </span>
-                  <span className={`text-xs font-medium ${transaction.status === 'Pending' ? 'text-yellow-500 font-bold' : 'text-green-600'}`}>{transaction.status}</span>
+                  <span
+                    className={`text-xs font-medium ${
+                      ['Pending', 'Processing'].includes(transaction.status)
+                        ? 'text-yellow-500 font-bold'
+                        : ['Failed', 'Canceled', 'Cancelled'].includes(transaction.status)
+                        ? 'text-red-500 font-bold'
+                        : 'text-green-600'
+                    }`}
+                  >
+                    {transaction.status}
+                  </span>
                 </div>
               </div>
             ))
