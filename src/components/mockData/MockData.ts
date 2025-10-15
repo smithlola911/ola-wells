@@ -6403,7 +6403,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'October 16, 2025',
         description: 'Deposit from Trust wallet - XXXXXX2637',
         status: 'Success',
-        amount_usd: 16000.0
+        amount_usd: 6000.0
       },
       {
         dateTime: 'October 10, 2025',
