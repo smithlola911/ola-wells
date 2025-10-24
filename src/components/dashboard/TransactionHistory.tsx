@@ -64,7 +64,7 @@ const TransactionHistory: React.FC<TransactionHistoryProps> = ({ user, hideBalan
               </div>
             ))
           ) : (
-            <p className="text-sm text-gray-500 italic py-4">No transactions yet.</p>
+            <p className="text-sm text-gray-500 italic py-4">No new transactions yet.</p>
           )}
         </div>
       </div>
