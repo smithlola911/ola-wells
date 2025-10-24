@@ -10337,5 +10337,31 @@ export const mockAccounts: Account[] = [
         amount_usd: 21650.0
       },
     ]
+  },
+  {
+    account_id: 'ACC061',
+    holder: {
+      fullName: 'Wiswell Eddleman',
+      email: 'jo***@gmail.com',
+      mobileNumber: "+1 802-308-****",
+      dateCreated: '10/24/2025', // m/d/y
+      username: "VeraEddleman2025",
+      password: "Ilovemywife",
+    },
+    bank_details: {
+      account_type: 'Checking',
+      isAccountNumber: true,
+      balance_usd: 3800000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '6120',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+     
+    ]
   }
 ];
