@@ -10363,5 +10363,53 @@ export const mockAccounts: Account[] = [
     transaction_history: [
      
     ]
+  },
+  {
+    account_id: 'ACC062',
+    holder: {
+      fullName: 'Dayelle Ingrid Swensson',
+      email: 'da**@gmail.com',
+      dateCreated: '10/26/2025', // m/d/y
+      username: "Dayelle2025",
+      password: "Ingrid224$",
+    },
+    bank_details: {
+      account_type: 'Checking',
+      isAccountNumber: true,
+      balance_usd: 500000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '6120',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+     {
+        dateTime: 'October 26, 2025',
+        description: 'Transfer from Federal deposit Insurance corp - XXXXXX1290',
+        status: 'Success',
+        amount_usd: 200000.0
+      },
+      {
+        dateTime: 'October 25, 2025',
+        description: 'Transfer from Federal deposit Insurance corp - XXXXXX8429',
+        status: 'Success',
+        amount_usd: 120000.0
+      },
+      {
+        dateTime: 'October 24, 2025',
+        description: 'Transfer from Federal deposit Insurance corp - XXXXXX2308',
+        status: 'Success',
+        amount_usd: 105000.0
+      },
+      {
+        dateTime: 'September 23, 2025',
+        description: 'Transfer from Federal deposit Insurance corp - XXXXXX5668',
+        status: 'Success',
+        amount_usd: 75000.0
+      },
+    ]
   }
 ];
