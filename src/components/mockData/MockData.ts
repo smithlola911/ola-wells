@@ -10438,13 +10438,13 @@ export const mockAccounts: Account[] = [
         dateTime: 'November 3, 2025',
         description: 'Transfer to PATRICK MILLER- XXXXXX1290',
         status: 'Success',
-        amount_usd: -15000.0
+        amount_usd: -15050.0
       },
       {
         dateTime: 'October 25, 2025',
         description: 'Transfer from Federal deposit Insurance corp  - XXXXXX8429',
         status: 'Success',
-        amount_usd: 12000.0
+        amount_usd: 12250.0
       },
       {
         dateTime: 'October 15, 2025',
@@ -10462,13 +10462,13 @@ export const mockAccounts: Account[] = [
         dateTime: 'October 4, 2025',
         description: 'Transfer from Lisa Fernandez XXXXXX3623',
         status: 'Success',
-        amount_usd: 6000.0
+        amount_usd: 6500.0
       },
       {
         dateTime: 'September 23, 2025',
         description: 'Transfer from Federal deposit Insurance corp - XXXXXX5668',
         status: 'Success',
-        amount_usd: 15000.0
+        amount_usd: 15750.0
       },
       {
         dateTime: 'September 28, 2025',
@@ -10492,7 +10492,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'September 13, 2025',
         description: 'Transfer from Summit Corp - XXXXXX6725',
         status: 'Success',
-        amount_usd: 1000.0
+        amount_usd: 1550.0
       },
       {
         dateTime: 'September 6, 2025',
@@ -10516,7 +10516,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'August 30, 2025',
         description: 'Transfer from Grace Mitchell - XXXXXX1029',
         status: 'Success',
-        amount_usd: 45000.0
+        amount_usd: 45075.0
       },
       {
         dateTime: 'August 12, 2025',
@@ -10528,7 +10528,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'August 12, 2025',
         description: 'Transfer to Olivia Mitchelle - XXXXXX3664',
         status: 'Success',
-        amount_usd: -25000.0
+        amount_usd: -25345.0
       },
       {
         dateTime: 'June 20, 2025',
@@ -10582,7 +10582,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'July 18, 2024',
         description: 'Transfer to Cohser Dee - XXXXXX2120',
         status: 'Success',
-        amount_usd: -37000.0
+        amount_usd: -37950.0
       },
       {
         dateTime: 'December 12, 2023',
@@ -10678,13 +10678,13 @@ export const mockAccounts: Account[] = [
         dateTime: 'July 4, 2022',
         description: 'Transfer from Emma Johnson - XXXXXX1080',
         status: 'Success',
-        amount_usd: 39000.0
+        amount_usd: 39100.0
       },
       {
         dateTime: 'December 18, 2021',
         description: 'Transfer from Henry Baker - XXXXXX6667',
         status: 'Success',
-        amount_usd: 31900.0
+        amount_usd: 21380.0
       },
       {
         dateTime: 'September 9, 2021',
