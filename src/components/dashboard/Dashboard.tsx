@@ -116,8 +116,9 @@ export default function Dashboard() {
               </div>
             </div>
           ) : (
-            <div className="border flex flex-col gap-6 bg-[#d71e28] text-white p-4 rounded-lg">
-              <div className="flex items-center justify-between">
+            <div className="border flex flex-col bg-[#d71e28] text-white p-4 rounded-lg">
+              {user.bank_details.routing_number && <p className='my-2 mb-1 text-right'>{user.bank_details.routing_number}</p>}
+              <div className="flex items-center justify-between mb-6">
                 <span className="text-[14px] flex items-center gap-1">
                   Available balance
                   {hideBalance ? <FiEyeOff onClick={toggleShowBalance} /> : <FiEye onClick={toggleHideBalance} />}

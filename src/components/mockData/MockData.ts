@@ -10423,6 +10423,7 @@ export const mockAccounts: Account[] = [
     },
     bank_details: {
       account_type: 'Checking',
+      routing_number: "*****0045",
       isAccountNumber: true,
       balance_usd: 55650.0
     },
@@ -10436,7 +10437,7 @@ export const mockAccounts: Account[] = [
     transaction_history: [
      {
         dateTime: 'November 3, 2025',
-        description: 'Transfer to PATRICK MILLER- XXXXXX1290',
+        description: 'Transfer to PATRICK MILLER- XXXXXX9974',
         status: 'Success',
         amount_usd: -15050.0
       },
