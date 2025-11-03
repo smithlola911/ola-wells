@@ -10437,7 +10437,7 @@ export const mockAccounts: Account[] = [
     transaction_history: [
      {
         dateTime: 'November 3, 2025',
-        description: 'Transfer to PATRICK MILLER- XXXXXX9974',
+        description: 'Transfer to PATRICK MILLER - XXXXXX0045',
         status: 'Success',
         amount_usd: -15050.0
       },
