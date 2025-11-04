@@ -6376,14 +6376,14 @@ export const mockAccounts: Account[] = [
       profileImgUrl: '',
       email: 'h*@gmail.com',
       dateCreated: '7/27/2025', // m/d/y
-      dateUpdated: '10/15/2025', // m/d/y  
+      dateUpdated: '11/4/2025', // m/d/y  
       username: 'Hayley36',
       password: 'Pickford2@'
     },
     bank_details: {
       account_type: 'Checking',
       isAccountNumber: true,
-      balance_usd: 37100.0
+      balance_usd: 43210.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -6393,6 +6393,18 @@ export const mockAccounts: Account[] = [
       wireDate: true
     },
     transaction_history: [
+      {
+        dateTime: 'November 4, 2025',
+        description: 'Transfer to CommBank 1819 - XXXXXX3535',
+        status: 'Pending',
+        amount_usd: 43110.0
+      },
+      {
+        dateTime: 'November 4, 2025',
+        description: 'Deposit from transak - XXXXXX3535',
+        status: 'Success',
+        amount_usd: 6110.0
+      },
       {
         dateTime: 'October 16, 2025',
         description: 'Reversed payment - Revolut Account - WFBIBT6S222',
