@@ -10719,7 +10719,7 @@ export const mockAccounts: Account[] = [
       },
     ]
   },
-   {
+  {
     account_id: 'ACC064',
     holder: {
       fullName: 'Janet Rose',
@@ -10751,19 +10751,19 @@ export const mockAccounts: Account[] = [
         dateTime: 'May 6, 2015',
         description: 'Transfer from Helen Motors - XXXXXX6633',
         status: 'Success',
-        amount_usd: 285000.0
+        amount_usd: 1800000.0
       },
       {
         dateTime: 'May 3, 2015',
         description: 'Transfer from Noah Collins - XXXXXX8464',
         status: 'Success',
-        amount_usd: 33500.0
+        amount_usd: 750000.0
       },
       {
         dateTime: 'April 30, 2015',
         description: 'Transfer from Grace Mitchell - XXXXXX1029',
         status: 'Success',
-        amount_usd: 150750.0
+        amount_usd: 1200000.0
       },
       {
         dateTime: 'April 12, 2015',
@@ -10781,7 +10781,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'March 20, 2015',
         description: 'Transfer from Mason Lee - XXXXXX7890',
         status: 'Success',
-        amount_usd: 176000.0
+        amount_usd: 2000000.0
       },
       {
         dateTime: 'March 5, 2015',
@@ -10795,17 +10795,17 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         amount_usd: -10500.0
       },
-       {
+      {
         dateTime: 'December 2, 2014',
         description: 'Transfer from Mia Brooks - XXXXXX6111',
         status: 'Success',
-        amount_usd: 102000.0
+        amount_usd: 1200000.0
       },
       {
         dateTime: 'September 15, 2014',
         description: 'Transfer from Jacob Smith - XXXXXX9120',
         status: 'Success',
-        amount_usd: 190400.0
+        amount_usd: 2800000.0
       },
       {
         dateTime: 'July 18, 2014',
@@ -10829,7 +10829,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'December 12, 2013',
         description: 'Transfer from Olivia Mitchelle - XXXXXX3664',
         status: 'Success',
-        amount_usd: 250000.0
+        amount_usd: 3500000.0
       },
       {
         dateTime: 'November 20, 2013',
@@ -10841,7 +10841,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'November 20, 2013',
         description: 'Transfer from Mason Lee - XXXXXX7890',
         status: 'Success',
-        amount_usd: 17600.0
+        amount_usd: 400000.0
       },
       {
         dateTime: 'August 5, 2012',
@@ -10877,7 +10877,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'March 2, 2012',
         description: 'Transfer from Jacob Smith - XXXXXX9120',
         status: 'Success',
-        amount_usd: 19400.0
+        amount_usd: 350000.0
       },
       {
         dateTime: 'July 18, 2011',
@@ -10901,7 +10901,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'September 12, 2011',
         description: 'Transfer from Ethan Johnson - XXXXXX3491',
         status: 'Success',
-        amount_usd: 129000.0
+        amount_usd: 3200000.0
       },
       {
         dateTime: 'July 4, 2011',
@@ -10913,19 +10913,19 @@ export const mockAccounts: Account[] = [
         dateTime: 'July 4, 2011',
         description: 'Transfer from Emma Johnson - XXXXXX1080',
         status: 'Success',
-        amount_usd: 39100.0
+        amount_usd: 1200000.0
       },
       {
         dateTime: 'December 18, 2010',
         description: 'Transfer from Henry Baker - XXXXXX6667',
         status: 'Success',
-        amount_usd: 21380.0
+        amount_usd: 400000.0
       },
       {
         dateTime: 'September 9, 2010',
         description: 'Transfer from Grace Evans - XXXXXX6366',
         status: 'Success',
-        amount_usd: 41600.0
+        amount_usd: 900000.0
       },
       {
         dateTime: 'July 1, 2010',
