@@ -25,6 +25,16 @@ export const listBks = [
     logo: "https://i.imgur.com/xR1FYm0.jpeg",
   },
   {
+    id: 372367262,
+    name: "PayPal",
+    logo: "https://i.imgur.com/pXw8iM7.png",
+  },
+  {
+    id: 372367264,
+    name: "Zelle",
+    logo: "https://i.imgur.com/BqW3sj6.png",
+  },
+  {
     id: 336437,
     name: "First-Citizens Bank",
     logo: "https://i.imgur.com/5wlAr6T.jpeg",

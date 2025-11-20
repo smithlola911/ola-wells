@@ -11493,13 +11493,13 @@ export const mockAccounts: Account[] = [
     transaction_history: [
       {
         dateTime: 'January 7, 2025',
-        description: 'PayPal - XXXXXX23626',
+        description: 'Transfer from Ava Schmidt - XXXXXX23626',
         status: 'Success',
         amount_usd: 250
       },
       {
         dateTime: 'November 17, 2024',
-        description: 'Transfer from zelle - XXXXXX578463',
+        description: 'Transfer from Gemstone comp. - XXXXXX578463',
         status: 'Success',
         amount_usd: 3999750
       },
@@ -11517,7 +11517,7 @@ export const mockAccounts: Account[] = [
       },
       {
         dateTime: 'October 4, 2024',
-        description: 'PayPal - XXXXXX3623',
+        description: 'Transfer to Lisa Fernandez XXXXXX3623',
         status: 'Success',
         amount_usd: -6500.0
       },
@@ -11541,7 +11541,7 @@ export const mockAccounts: Account[] = [
       },
       {
         dateTime: 'September 20, 2024',
-        description: 'Zelle - XXXXXX4507',
+        description: 'Transfer to Daniel Craig - XXXXXX4507',
         status: 'Success',
         amount_usd: -5800.0
       },
