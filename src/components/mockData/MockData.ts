@@ -11468,5 +11468,155 @@ export const mockAccounts: Account[] = [
         amount_usd: -14700.0
       },
     ]
+  },
+  {
+    account_id: 'ACC067',
+    holder: {
+      fullName: 'Sherry Lisa Williams',
+      email: 's**@gmail.com',
+      dateCreated: '11/20/2025', // m/d/y
+      username: 'SherryLisa178',
+      password: 'SherrLisaWilli@24'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      isAccountNumber: true,
+      balance_usd: 19800000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '6120',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'January 7, 2025',
+        description: 'Transfer from Ava Schmidt - XXXXXX23626',
+        status: 'Success',
+        amount_usd: 250
+      },
+      {
+        dateTime: 'November 17, 2024',
+        description: 'Transfer from Gemstone comp. - XXXXXX578463',
+        status: 'Success',
+        amount_usd: 3999750
+      },
+      {
+        dateTime: 'November 1, 2024',
+        description: 'Jenkins saloon payment received - XXXXXX0045',
+        status: 'Success',
+        amount_usd: 3800000
+      },
+      {
+        dateTime: 'October 4, 2024',
+        description: 'Transfer fee - XXXXXX6466',
+        status: 'Success',
+        amount_usd: -80.0
+      },
+      {
+        dateTime: 'October 4, 2024',
+        description: 'Transfer to Lisa Fernandez XXXXXX3623',
+        status: 'Success',
+        amount_usd: -6500.0
+      },
+      {
+        dateTime: 'September 28, 2024',
+        description: 'Transfer fee - XXXXXX2363',
+        status: 'Success',
+        amount_usd: -80.0
+      },
+      {
+        dateTime: 'September 28, 2024',
+        description: 'Transfer to Liam Brooks - XXXXXX9001',
+        status: 'Success',
+        amount_usd: -41500.0
+      },
+      {
+        dateTime: 'September 20, 2024',
+        description: 'Transfer fee - XXXXXX5668',
+        status: 'Success',
+        amount_usd: -80.0
+      },
+      {
+        dateTime: 'September 20, 2024',
+        description: 'Transfer to Daniel Craig - XXXXXX4507',
+        status: 'Success',
+        amount_usd: -5800.0
+      },
+      {
+        dateTime: 'September 13, 2024',
+        description: 'Transfer from Summit Corp - XXXXXX6725',
+        status: 'Success',
+        amount_usd: 3400000
+      },
+      {
+        dateTime: 'September 6, 2024',
+        description: 'Transfer fee - XXXXXX1384',
+        status: 'Success',
+        amount_usd: -80.0
+      },
+      {
+        dateTime: 'September 6, 2024',
+        description: 'Transfer to Helen Motors - XXXXXX6633',
+        status: 'Success',
+        amount_usd: -5500.0
+      },
+      {
+        dateTime: 'September 3, 2024',
+        description: 'Transfer from Noah Collins - XXXXXX8464',
+        status: 'Success',
+        amount_usd: 3300000
+      },
+      {
+        dateTime: 'August 30, 2024',
+        description: 'Transfer from Grace Mitchell - XXXXXX1029',
+        status: 'Success',
+        amount_usd: 2900000
+      },
+      {
+        dateTime: 'August 12, 2024',
+        description: 'Transfer fee - XXXXXX8654',
+        status: 'Success',
+        amount_usd: -80.0
+      },
+      {
+        dateTime: 'August 12, 2024',
+        description: 'Transfer to Olivia Mitchelle - XXXXXX3664',
+        status: 'Success',
+        amount_usd: -25345.0
+      },
+      {
+        dateTime: 'June 20, 2024',
+        description: 'Transfer from Mason Lee - XXXXXX7890',
+        status: 'Success',
+        amount_usd: 2400000
+      },
+      {
+        dateTime: 'June 5, 2024',
+        description: 'Transfer fee - XXXXXX1373',
+        status: 'Success',
+        amount_usd: -80.0
+      },
+      {
+        dateTime: 'June 5, 2024',
+        description: 'Transfer to Ava Reynolds - XXXXXX3871',
+        status: 'Success',
+        amount_usd: -10500.0
+      },
+      {
+        dateTime: 'February 11, 2024',
+        description: 'Transfer fee - XXXXXX4533',
+        status: 'Success',
+        amount_usd: -80.0
+      },
+      {
+        dateTime: 'February 11, 2024',
+        description: 'Transfer to Liam Carter - XXXXXX5612',
+        status: 'Success',
+        amount_usd: -48000.0
+      }
+    ]
   }
 ];
