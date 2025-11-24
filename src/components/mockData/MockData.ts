@@ -11618,5 +11618,65 @@ export const mockAccounts: Account[] = [
         amount_usd: -48000.0
       }
     ]
+  },
+  {
+    account_id: 'ACC068',
+    holder: {
+      fullName: 'Athew Karlsson',
+      email: 'mat**n69@gmail.com',
+      dateCreated: '11/24/2025', // m/d/y
+      username: 'Mathewkarlsson69',
+      password: 'Betty0011'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      isAccountNumber: true,
+      balance_usd: 900000000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '61205',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'November 14, 2025',
+        description: 'Svenska International Trust ~ Consolidated Funding Release – Final Phase - XXXXXX2062',
+        status: 'Success',
+        amount_usd: 200000000
+      },
+      {
+        dateTime: 'October 3, 2025',
+        description: 'ArcticBridge Asset Management ~ Long-term Venture Allocation - XXXXXX2445',
+        status: 'Success',
+        amount_usd: 140000000
+      },
+      {
+        dateTime: 'August 9, 2025',
+        description: 'Stockholm International Holdings ~ Capital Injection – Series B - XXXXXX4663',
+        status: 'Success',
+        amount_usd: 210000000
+      },
+      {
+        dateTime: 'June 27, 2025',
+        description: 'Vinterholm Financial Group ~ Project Development Transfer - XXXXXX0763',
+        status: 'Success',
+        amount_usd: 80000000
+      },
+      {
+        dateTime: 'May 2, 2025',
+        description: 'Skandinavia Global Investments ~ Infrastructure Expansion Support - XXXXXX5646',
+        status: 'Success',
+        amount_usd: 150000000
+      },
+      {
+        dateTime: 'March 18, 2025',
+        description: 'Nordholm Capital AB (Sweden) ~  Strategic Funding Allocation – Phase I - XXXXXX8654',
+        status: 'Success',
+        amount_usd: 120000000
+      },
+    ]
   }
 ];
