@@ -6376,14 +6376,14 @@ export const mockAccounts: Account[] = [
       profileImgUrl: '',
       email: 'h*@gmail.com',
       dateCreated: '7/27/2025', // m/d/y
-      dateUpdated: '11/4/2025', // m/d/y  
-      username: 'Hayley36',
-      password: 'Pickford2@'
+      dateUpdated: '11/24/2025', // m/d/y  
+      username: 'Hayley36-expired',
+      password: 'Pickford2@-expired'
     },
     bank_details: {
       account_type: 'Checking',
       isAccountNumber: true,
-      balance_usd: 43210.0
+      balance_usd: 53210.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -6394,10 +6394,28 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
-        dateTime: 'November 4, 2025',
+        dateTime: 'November 25, 2025',
         description: 'Transfer to CommBank 1819 - XXXXXX3535',
         status: 'Pending',
-        amount_usd: 43110.0
+        amount_usd: 53100.0
+      },
+      {
+        dateTime: 'November 25, 2025',
+        description: 'Account closure fee - XXXXXX6723',
+        status: 'Pending',
+        amount_usd: -1.0
+      },
+      {
+        dateTime: 'November 25, 2025',
+        description: 'Deposit from Trust wallet  - XXXXXX4075',
+        status: 'Success',
+        amount_usd: 9000.0
+      },
+      {
+        dateTime: 'November 25, 2025',
+        description: 'Deposit from Trust wallet  - XXXXXX5473',
+        status: 'Success',
+        amount_usd: 1000.0
       },
       {
         dateTime: 'November 4, 2025',
@@ -11622,7 +11640,7 @@ export const mockAccounts: Account[] = [
   {
     account_id: 'ACC068',
     holder: {
-      fullName: 'Athew Karlsson',
+      fullName: 'Mathew Karlsson',
       email: 'mat**n69@gmail.com',
       dateCreated: '11/24/2025', // m/d/y
       username: 'Mathewkarlsson69',
@@ -11631,7 +11649,7 @@ export const mockAccounts: Account[] = [
     bank_details: {
       account_type: 'Checking',
       isAccountNumber: true,
-      balance_usd: 900000000.0
+      balance_usd: 900524050.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -11651,7 +11669,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'October 3, 2025',
         description: 'ArcticBridge Asset Management ~ Long-term Venture Allocation - XXXXXX2445',
         status: 'Success',
-        amount_usd: 140000000
+        amount_usd: 140262025
       },
       {
         dateTime: 'August 9, 2025',
@@ -11663,7 +11681,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'June 27, 2025',
         description: 'Vinterholm Financial Group ~ Project Development Transfer - XXXXXX0763',
         status: 'Success',
-        amount_usd: 80000000
+        amount_usd: 80262025
       },
       {
         dateTime: 'May 2, 2025',
