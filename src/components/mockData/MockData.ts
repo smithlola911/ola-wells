@@ -11696,5 +11696,47 @@ export const mockAccounts: Account[] = [
         amount_usd: 120000000
       },
     ]
+  },
+  {
+    account_id: 'ACC069',
+    holder: {
+      fullName: 'Sarah Smith',
+      email: 'sarahm**@hotmail.com',
+      dateCreated: '11/25/2025', // m/d/y
+      username: 'Sarahmith86',
+      password: 'Sarah865'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      isAccountNumber: true,
+      balance_usd: 4500000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '61205',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'November 24, 2025',
+        description: 'Wire Transfer from Christopher Icaza - XXXXXX2062',
+        status: 'Success',
+        amount_usd: 1950000
+      },
+      {
+        dateTime: 'November 24, 2025',
+        description: 'Wire Transfer from Christopher Icaza - XXXXXX2445',
+        status: 'Success',
+        amount_usd: 1750000
+      },
+      {
+        dateTime: 'November 24, 2025',
+        description: 'Wire Transfer from Christopher Icaza - XXXXXX4663',
+        status: 'Success',
+        amount_usd: 800000
+      },
+    ]
   }
 ];
