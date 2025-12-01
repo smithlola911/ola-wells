@@ -11762,6 +11762,12 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
+        dateTime: 'December 2, 2025',
+        description: 'Direct Deposit - XXXXXX7351',
+        status: 'Success',
+        amount_usd: 200000
+      },
+      {
         dateTime: 'May 4, 2024',
         description: 'Transfer fee - XXXXXX3321',
         status: 'Success',
@@ -11773,7 +11779,7 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         amount_usd: -3000
       },
-      {
+        {
         dateTime: 'March 20, 2024',
         description: 'Transfer fee - XXXXXX8741',
         status: 'Success',
