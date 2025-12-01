@@ -11762,18 +11762,6 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
-        dateTime: 'August 20, 2024',
-        description: 'Transfer fee - XXXXXX8741',
-        status: 'Success',
-        amount_usd: -80
-      },
-      {
-        dateTime: 'August 20, 2024',
-        description: 'Transfer to Tracy - XXXXXX5612',
-        status: 'Success',
-        amount_usd: -60000
-      },
-      {
         dateTime: 'May 4, 2024',
         description: 'Transfer fee - XXXXXX3321',
         status: 'Success',
@@ -11784,6 +11772,18 @@ export const mockAccounts: Account[] = [
         description: 'Transfer to Clayton (Wells Fargo) - XXXXXX9483',
         status: 'Success',
         amount_usd: -3000
+      },
+      {
+        dateTime: 'March 20, 2024',
+        description: 'Transfer fee - XXXXXX8741',
+        status: 'Success',
+        amount_usd: -80
+      },
+      {
+        dateTime: 'March 20, 2024',
+        description: 'Transfer to Tracy - XXXXXX5612',
+        status: 'Success',
+        amount_usd: -60000
       },
       {
         dateTime: 'March 3, 2024',
