@@ -11738,5 +11738,167 @@ export const mockAccounts: Account[] = [
         amount_usd: 800000
       },
     ]
+  },
+  {
+    account_id: 'ACC070',
+    holder: {
+      fullName: 'Alexia Roy',
+      email: 'a**@gmail.com',
+      dateCreated: '12/1/2025', // m/d/y
+      username: 'AvaAddams86',
+      password: 'Alexiarhoads865'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      isAccountNumber: true,
+      balance_usd: 200000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '61205',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'August 20, 2024',
+        description: 'Transfer fee - XXXXXX8741',
+        status: 'Success',
+        amount_usd: -80
+      },
+      {
+        dateTime: 'August 20, 2024',
+        description: 'Transfer to Tracy - XXXXXX5612',
+        status: 'Success',
+        amount_usd: -60000
+      },
+      {
+        dateTime: 'May 4, 2024',
+        description: 'Transfer fee - XXXXXX3321',
+        status: 'Success',
+        amount_usd: -25
+      },
+      {
+        dateTime: 'May 4, 2024',
+        description: 'Transfer to Clayton (Wells Fargo) - XXXXXX9483',
+        status: 'Success',
+        amount_usd: -3000
+      },
+      {
+        dateTime: 'March 3, 2024',
+        description: 'Transfer from Ridgeview Holdings - XXXXXX2275',
+        status: 'Success',
+        amount_usd: 156000
+      },
+      {
+        dateTime: 'January 17, 2024',
+        description: 'Transfer from Fairmont Capital - XXXXXX6401',
+        status: 'Success',
+        amount_usd: 300000
+      },
+      {
+        dateTime: 'December 5, 2023',
+        description: 'Transfer fee - XXXXXX9012',
+        status: 'Success',
+        amount_usd: -45
+      },
+      {
+        dateTime: 'December 5, 2023',
+        description: 'Transfer to Mabel Roy - XXXXXX3844',
+        status: 'Success',
+        amount_usd: -35000
+      },
+      {
+        dateTime: 'October 15, 2023',
+        description: 'Transfer fee - XXXXXX7723',
+        status: 'Success',
+        amount_usd: -50
+      },
+      {
+        dateTime: 'October 15, 2023',
+        description: 'Transfer to Westbridge Consultants - XXXXXX1179',
+        status: 'Success',
+        amount_usd: -50000
+      },
+      {
+        dateTime: 'September 28, 2023',
+        description: 'Transfer from Northcrest Financial - XXXXXX9020',
+        status: 'Success',
+        amount_usd: 100000
+      },
+      {
+        dateTime: 'July 15, 2023',
+        description: 'Transfer fee - XXXXXX6654',
+        status: 'Success',
+        amount_usd: -90
+      },
+      {
+        dateTime: 'July 15, 2023',
+        description: 'Transfer to Tracy Andreas - XXXXXX7753',
+        status: 'Success',
+        amount_usd: -200000
+      },
+      {
+        dateTime: 'March 20, 2023',
+        description: 'Transfer from Silverlake Ventures - XXXXXX6651',
+        status: 'Success',
+        amount_usd: 30000
+      },
+      {
+        dateTime: 'March 4, 2023',
+        description: 'Transfer from Highland & Co. - XXXXXX5128',
+        status: 'Success',
+        amount_usd: 350000
+      },
+      {
+        dateTime: 'February 2, 2023',
+        description: 'Transfer fee - XXXXXX2233',
+        status: 'Success',
+        amount_usd: -30
+      },
+      {
+        dateTime: 'February 2, 2023',
+        description: 'Transfer to Maria Roy - XXXXXX3402',
+        status: 'Success',
+        amount_usd: -5000
+      },
+      {
+        dateTime: 'January 25, 2023',
+        description: 'Transfer fee - XXXXXX9981',
+        status: 'Success',
+        amount_usd: -40
+      },
+      {
+        dateTime: 'January 25, 2023',
+        description: 'Transfer to Lovet Roy - XXXXXX9835',
+        status: 'Success',
+        amount_usd: -6000
+      },
+      {
+        dateTime: 'January 15, 2023',
+        description: 'Transfer fee - XXXXXX1107',
+        status: 'Success',
+        amount_usd: -35
+      },
+      {
+        dateTime: 'January 15, 2023',
+        description: 'Transfer to Anderson (BOA) - XXXXXX7410',
+        status: 'Success',
+        amount_usd: -4000
+      },
+      {
+        dateTime: 'January 15, 2023',
+        description: 'Transfer from Eastgate Partners - XXXXXX2219',
+        status: 'Success',
+        amount_usd: 179000
+      },
+      {
+        dateTime: 'January 12, 2023',
+        description: 'Transfer from Brightline Group - XXXXXX5694',
+        status: 'Success',
+        amount_usd: 100000
+      }
+    ]
   }
 ];
