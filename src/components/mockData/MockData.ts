@@ -11906,5 +11906,125 @@ export const mockAccounts: Account[] = [
         amount_usd: 100000
       }
     ]
+  },
+  {
+    account_id: 'ACC071',
+    holder: {
+      fullName: 'Michael Ozil',
+      email: 'm**@gmail.com',
+      dateCreated: '12/4/2025', // m/d/y
+      username: 'Michaelozil2020',
+      password: 'Lifeisamazing0202'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      isAccountNumber: true,
+      balance_usd: 216000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '61205',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'October 18, 2025',
+        description: 'Transfer from Helen Motors - XXXXXX3672',
+        status: 'Success',
+        amount_usd: 100000
+      },
+      {
+        dateTime: 'May 4, 2025',
+        description: 'Transfer to Clayton (Wells Fargo) - XXXXXX9483',
+        status: 'Success',
+        amount_usd: -3000
+      },
+      {
+        dateTime: 'March 20, 2025',
+        description: 'Transfer to Travis - XXXXXX5172',
+        status: 'Success',
+        amount_usd: -60000
+      },
+      {
+        dateTime: 'March 3, 2025',
+        description: 'Transfer from BlueRock Capital - XXXXXX7329',
+        status: 'Success',
+        amount_usd: 156000
+      },
+      {
+        dateTime: 'January 17, 2025',
+        description: 'Transfer from Evergreen Holdings Ltd - XXXXXX2845',
+        status: 'Success',
+        amount_usd: 300000
+      },
+      {
+        dateTime: 'December 5, 2024',
+        description: 'Transfer to Marcus Roy - XXXXXX6617',
+        status: 'Success',
+        amount_usd: -35000
+      },
+      {
+        dateTime: 'October 15, 2024',
+        description: 'Transfer to Harper & Co. - XXXXXX9044',
+        status: 'Success',
+        amount_usd: -50000
+      },
+      {
+        dateTime: 'September 28, 2024',
+        description: 'Transfer from PrimeStone Investments - XXXXXX1208',
+        status: 'Success',
+        amount_usd: 100000
+      },
+      {
+        dateTime: 'July 15, 2024',
+        description: 'Transfer to Travis Andreas - XXXXXX8471',
+        status: 'Success',
+        amount_usd: -200000
+      },
+      {
+        dateTime: 'March 20, 2024',
+        description: 'Transfer from Silverline Partners - XXXXXX5539',
+        status: 'Success',
+        amount_usd: 30000
+      },
+      {
+        dateTime: 'March 4, 2024',
+        description: 'Transfer from Northern Star Group - XXXXXX7912',
+        status: 'Success',
+        amount_usd: 350000
+      },
+      {
+        dateTime: 'February 2, 2024',
+        description: 'Transfer to Martin Roy - XXXXXX6374',
+        status: 'Success',
+        amount_usd: -5000
+      },
+      {
+        dateTime: 'January 25, 2024',
+        description: 'Transfer to Logan Roy - XXXXXX4501',
+        status: 'Success',
+        amount_usd: -6000
+      },
+      {
+        dateTime: 'January 15, 2024',
+        description: 'Transfer to Anderson (BOA) - XXXXXX8895',
+        status: 'Success',
+        amount_usd: -4000
+      },
+      {
+        dateTime: 'January 15, 2024',
+        description: 'Transfer from Global Trade Corp - XXXXXX3318',
+        status: 'Success',
+        amount_usd: 179000
+      },
+      {
+        dateTime: 'January 12, 2024',
+        description: 'Transfer from BrightWave Enterprises - XXXXXX5027',
+        status: 'Success',
+        amount_usd: 100000
+      }
+    ]
   }
 ];
