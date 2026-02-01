@@ -3291,8 +3291,8 @@ export const mockAccounts: Account[] = [
       fullName: 'Mickie Laree James',
       email: 'm*@gmail.com',
       dateCreated: '4/15/2025', // m/d/y
-      username: 'Mickiebill$',
-      password: 'mickiebill123@'
+      username: 'Mickiebill$-expired',
+      password: 'mickiebill123@-expired'
     },
     bank_details: {
       account_type: 'Checking',
@@ -3445,8 +3445,8 @@ export const mockAccounts: Account[] = [
       fullName: 'Roland Moore',
       email: 'r*@gmail.com',
       dateCreated: '4/15/2025', // m/d/y
-      username: 'Rolandmoore',
-      password: 'Roland#moore14'
+      username: 'Rolandmoore-expired',
+      password: 'Roland#moore14-expired'
     },
     bank_details: {
       account_type: 'Checking',
@@ -3599,8 +3599,8 @@ export const mockAccounts: Account[] = [
       fullName: 'Jessica Raymond',
       email: 'bigrymondjessica@gmail.com',
       dateCreated: '4/26/2025', // m/d/y
-      username: 'bigrymondjessica',
-      password: 'SHANEP11'
+      username: 'bigrymondjessica-expired',
+      password: 'SHANEP11-expired'
     },
     bank_details: {
       account_type: 'Checking',
@@ -3658,8 +3658,8 @@ export const mockAccounts: Account[] = [
       email: 'bigrymondjessica@gmail.com',
       dateCreated: '5/3/2025', // m/d/y
       dateUpdated: '6/9/2025', // m/d/y
-      username: 'tinaaugust$4',
-      password: 'tinaRTC@05'
+      username: 'tinaaugust$4-expired',
+      password: 'tinaRTC@05-expired'
     },
     bank_details: {
       account_type: 'Checking',
@@ -4169,8 +4169,8 @@ export const mockAccounts: Account[] = [
       profileImgUrl: '',
       email: 'j*@gmail.com',
       dateCreated: '5/9/2025', // m/d/y
-      username: 'Johnsmith25',
-      password: 'smith1984'
+      username: 'Johnsmith25-expired',
+      password: 'smith1984-expired'
     },
     bank_details: {
       account_type: 'Checking',
@@ -5903,12 +5903,12 @@ export const mockAccounts: Account[] = [
   {
     account_id: 'ACC037',
     holder: {
-      fullName: 'John Benedict ',
+      fullName: 'John Benedict',
       profileImgUrl: '',
       email: 'j*@gmail.com',
       dateCreated: '7/22/2025', // m/d/y
-      username: 'Toolmann',
-      password: 'Delight@me4u'
+      username: 'Toolmann-expired',
+      password: 'Delight@me4u-expired'
     },
     bank_details: {
       account_type: 'Checking',
@@ -6141,8 +6141,8 @@ export const mockAccounts: Account[] = [
       profileImgUrl: '',
       email: 't*@gmail.com',
       dateCreated: '7/26/2025', // m/d/y
-      username: 'Jessie123',
-      password: 'Remmydadday$#123'
+      username: 'Jessie123-expired',
+      password: 'Remmydadday$#123-expired'
     },
     bank_details: {
       account_type: 'Checking',
@@ -6377,8 +6377,8 @@ export const mockAccounts: Account[] = [
       email: 'h*@gmail.com',
       dateCreated: '7/27/2025', // m/d/y
       dateUpdated: '11/24/2025', // m/d/y  
-      username: 'Hayley36',
-      password: 'Pickford2@'
+      username: 'Hayley36-expired',
+      password: 'Pickford2@-expired'
     },
     bank_details: {
       account_type: 'Checking',
@@ -6486,8 +6486,8 @@ export const mockAccounts: Account[] = [
       profileImgUrl: '',
       email: 'a*@gmail.com',
       dateCreated: '7/29/2025', // m/d/y
-      username: 'ALEX217',
-      password: 'SPYFIXED1233$'
+      username: 'ALEX217-expired',
+      password: 'SPYFIXED1233$-expired'
     },
     bank_details: {
       account_type: 'Checking',
@@ -6651,8 +6651,8 @@ export const mockAccounts: Account[] = [
       mobileNumber: '+12185082322',
       email: 'beatrice**@gmail.com',
       dateCreated: '7/30/2025', // m/d/y
-      username: 'Serenity890',
-      password: 'Serenitylloyd'
+      username: 'Serenity890-expired',
+      password: 'Serenitylloyd-expired'
     },
     bank_details: {
       account_type: 'Checking',
@@ -6705,8 +6705,8 @@ export const mockAccounts: Account[] = [
       fullName: 'Fernandez Jose de Pablo',
       email: 'f*@gmail.com',
       dateCreated: '7/30/2025', // m/d/y
-      username: 'Maria_25',
-      password: 'FernJoPa@99'
+      username: 'Maria_25-expired',
+      password: 'FernJoPa@99-expired'
     },
     bank_details: {
       account_type: 'Checking',
@@ -12324,6 +12324,42 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         amount_usd: -125.0
       }
+    ]
+  },
+   {
+    account_id: 'ACC073',
+    holder: {
+      fullName: 'Mark Tall',
+      email: 'm**@gmail.com',
+      dateCreated: '2/1/2026', // m/d/y
+      username: 'Mark2026',
+      password: 'Tall2026'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      isAccountNumber: true,
+      balance_usd: 1050000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '6120',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'January 12, 2026',
+        description: 'Transfer from World Bank - XXXXXX4475',
+        status: 'Success',
+        amount_usd: 300000.0
+      },
+      {
+        dateTime: 'November 21, 2025',
+        description: 'Transfer from Mr Cheng Charlie Saephan - XXXXXX2254',
+        status: 'Success',
+        amount_usd: 750000.0
+      },
     ]
   }
 ];
