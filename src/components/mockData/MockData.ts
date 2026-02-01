@@ -12344,7 +12344,7 @@ export const mockAccounts: Account[] = [
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '6120',
       headerText: 'Dear Valued Customer,',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      lastStepText: 'Your account is on hold because of your Identity Verification (KYC). You cannot make transactions right now, Please contact the financial officer.',
       wireDate: true
     },
     transaction_history: [
