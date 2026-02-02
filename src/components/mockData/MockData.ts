@@ -521,7 +521,7 @@ export const mockAccounts: Account[] = [
       lastName: '',
       email: 'j*@gmail.com',
       jointNames: '',
-      username: "Smiths-expired",
+      username: 'Smiths-expired',
       password: 'Iremide123-expired'
     },
     bank_details: {
@@ -4410,8 +4410,8 @@ export const mockAccounts: Account[] = [
       profileImgUrl: '',
       email: 'j*@gmail.com',
       dateCreated: '5/11/2025', // m/d/y
-      username: 'Bradrinehart',
-      password: 'Bradrinehart2025'
+      username: 'Bradrinehart-expired',
+      password: 'Bradrinehart2025-expired'
     },
     bank_details: {
       account_type: 'Checking',
@@ -4434,8 +4434,8 @@ export const mockAccounts: Account[] = [
       profileImgUrl: '',
       email: 's*@gmail.com',
       dateCreated: '5/20/2025', // m/d/y
-      username: '@Hawley2121',
-      password: 'CJNatRS21!'
+      username: '@Hawley2121-expired',
+      password: 'CJNatRS21!-expired'
     },
     bank_details: {
       account_type: 'Checking',
@@ -4941,8 +4941,8 @@ export const mockAccounts: Account[] = [
       profileImgUrl: '',
       email: 'a*@gmail.com',
       dateCreated: '6/6/2025', // m/d/y
-      username: 'Alexthomas44',
-      password: 'Alexlovesharon'
+      username: 'Alexthomas44-expired',
+      password: 'Alexlovesharon-expired'
     },
     bank_details: {
       account_type: 'Checking',
@@ -4995,8 +4995,8 @@ export const mockAccounts: Account[] = [
       profileImgUrl: '',
       email: 'p*@gmail.com',
       dateCreated: '6/6/2025', // m/d/y
-      username: 'Skinnybrown11',
-      password: 'Nancy_pullah147'
+      username: 'Skinnybrown11-expired',
+      password: 'Nancy_pullah147-expired'
     },
     bank_details: {
       account_type: 'Checking',
@@ -5049,8 +5049,8 @@ export const mockAccounts: Account[] = [
       profileImgUrl: '',
       email: 'c*@gmail.com',
       dateCreated: '6/20/2025', // m/d/y
-      username: 'ChristopherBright1982',
-      password: 'Bella@1982'
+      username: 'ChristopherBright1982-expired',
+      password: 'Bella@1982-expired'
     },
     bank_details: {
       account_type: 'Checking',
@@ -5133,8 +5133,8 @@ export const mockAccounts: Account[] = [
       profileImgUrl: '',
       email: 'c*@gmail.com',
       dateCreated: '6/22/2025', // m/d/y
-      username: 'Charisma',
-      password: 'Charisma123@'
+      username: 'Charisma-expired',
+      password: 'Charisma123@-expired'
     },
     bank_details: {
       account_type: 'Checking',
@@ -5307,8 +5307,8 @@ export const mockAccounts: Account[] = [
       profileImgUrl: '',
       email: 'l*@gmail.com',
       dateCreated: '6/25/2025', // m/d/y
-      username: 'leedongmin',
-      password: 'SPIROSKY11'
+      username: 'leedongmin-expired',
+      password: 'SPIROSKY11-expired'
     },
     bank_details: {
       account_type: 'Checking',
@@ -5565,8 +5565,8 @@ export const mockAccounts: Account[] = [
       profileImgUrl: '',
       email: 's*@gmail.com',
       dateCreated: '6/27/2025', // m/d/y
-      username: 'Steve123',
-      password: 'Steve0123'
+      username: 'Steve123-expired',
+      password: 'Steve0123-expired'
     },
     bank_details: {
       account_type: 'Checking',
@@ -6376,7 +6376,7 @@ export const mockAccounts: Account[] = [
       profileImgUrl: '',
       email: 'h*@gmail.com',
       dateCreated: '7/27/2025', // m/d/y
-      dateUpdated: '11/24/2025', // m/d/y  
+      dateUpdated: '11/24/2025', // m/d/y
       username: 'Hayley36-expired',
       password: 'Pickford2@-expired'
     },
@@ -8628,8 +8628,8 @@ export const mockAccounts: Account[] = [
       fullName: 'Kate manthey Oliver',
       email: 'Kate**01@gmail.com',
       dateCreated: '9/5/2025', // m/d/y
-      username: "katemanthey123",
-      password: "kate123$$",
+      username: 'katemanthey123',
+      password: 'kate123$$'
     },
     bank_details: {
       account_type: 'Checking',
@@ -8775,7 +8775,7 @@ export const mockAccounts: Account[] = [
         description: 'Transfer to Ava Schmidt - XXXXXX9072',
         status: 'Success',
         amount_usd: -14700.0
-      },
+      }
     ]
   },
   {
@@ -8784,8 +8784,8 @@ export const mockAccounts: Account[] = [
       fullName: 'Steve Jack',
       email: 's**@gmail.com',
       dateCreated: '9/7/2025', // m/d/y
-      username: "Steve1010",
-      password: "Jack9035",
+      username: 'Steve1010',
+      password: 'Jack9035'
     },
     bank_details: {
       account_type: 'Checking',
@@ -8860,7 +8860,7 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         amount_usd: -48000.0
       },
-       {
+      {
         dateTime: 'December 2, 2024',
         description: 'Transfer from Mia Brooks - XXXXXX6111',
         status: 'Success',
@@ -9003,7 +9003,7 @@ export const mockAccounts: Account[] = [
         description: 'Transfer to Ava Schmidt - XXXXXX9072',
         status: 'Success',
         amount_usd: -14700.0
-      },
+      }
     ]
   },
   {
@@ -9012,8 +9012,8 @@ export const mockAccounts: Account[] = [
       fullName: 'Valorie Martinez',
       email: 'redh**v@gmail.com',
       dateCreated: '9/13/2025', // m/d/y
-      username: "Valorie511",
-      password: "Ringo$Angel23",
+      username: 'Valorie511',
+      password: 'Ringo$Angel23'
     },
     bank_details: {
       account_type: 'Checking',
@@ -9100,7 +9100,7 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         amount_usd: -48000.0
       },
-       {
+      {
         dateTime: 'December 2, 2024',
         description: 'Bitcoin - XXXXXX6111',
         status: 'Success',
@@ -9276,8 +9276,8 @@ export const mockAccounts: Account[] = [
       fullName: 'Jacqueline London',
       email: 'j**@gmail.com',
       dateCreated: '9/13/2025', // m/d/y
-      username: "jacquelondon35",
-      password: "Loveisbeautiful634",
+      username: 'jacquelondon35',
+      password: 'Loveisbeautiful634'
     },
     bank_details: {
       account_type: 'Checking',
@@ -9306,7 +9306,7 @@ export const mockAccounts: Account[] = [
       },
       {
         dateTime: 'September 7, 2025',
-         description: 'Monthly house rent - 45 Sunset Blvd',
+        description: 'Monthly house rent - 45 Sunset Blvd',
         status: 'Success',
         amount_usd: 20000.0
       },
@@ -9540,8 +9540,8 @@ export const mockAccounts: Account[] = [
       fullName: 'John Smith',
       email: 'j**@gmail.com',
       dateCreated: '9/14/2025', // m/d/y
-      username: "jsmith9935",
-      password: "Ablegod1",
+      username: 'jsmith9935',
+      password: 'Ablegod1'
     },
     bank_details: {
       account_type: 'Checking',
@@ -9570,7 +9570,7 @@ export const mockAccounts: Account[] = [
       },
       {
         dateTime: 'December 7, 2024',
-         description: 'Monthly house rent - 45 Sunset Blvd',
+        description: 'Monthly house rent - 45 Sunset Blvd',
         status: 'Success',
         amount_usd: 20000.0
       },
@@ -9810,8 +9810,8 @@ export const mockAccounts: Account[] = [
       fullName: 'Brent Drake & Emily Alejandro Drake',
       email: 'bdem**@gmail.com',
       dateCreated: '9/24/2025', // m/d/y
-      username: "Brent&Emilydrake",
-      password: "Together4life",
+      username: 'Brent&Emilydrake',
+      password: 'Together4life'
     },
     bank_details: {
       account_type: 'Checking',
@@ -9822,7 +9822,8 @@ export const mockAccounts: Account[] = [
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '23782',
       headerText: 'Dear Valued Customer,',
-      lastStepText: 'This account is not currently enabled for external transfers. A one‑time activation fee of $3,000.00 is required to activate this service. Once the fee is successfully paid, transfers will be enabled because activation charge is required to proceed.',
+      lastStepText:
+        'This account is not currently enabled for external transfers. A one‑time activation fee of $3,000.00 is required to activate this service. Once the fee is successfully paid, transfers will be enabled because activation charge is required to proceed.',
       wireDate: true
     },
     transaction_history: [
@@ -9930,8 +9931,8 @@ export const mockAccounts: Account[] = [
       fullName: 'Schragg Michael',
       email: 'msch**@yahoo.com',
       dateCreated: '9/28/2025', // m/d/y
-      username: "MichaelBailey2025",
-      password: "Ilovemywife",
+      username: 'MichaelBailey2025',
+      password: 'Ilovemywife'
     },
     bank_details: {
       account_type: 'Checking',
@@ -10036,7 +10037,7 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         amount_usd: -48000.0
       },
-       {
+      {
         dateTime: 'December 2, 2024',
         description: 'Transfer from Mia Brooks - XXXXXX6111',
         status: 'Success',
@@ -10179,7 +10180,7 @@ export const mockAccounts: Account[] = [
         description: 'Transfer to Ava Schmidt - XXXXXX9072',
         status: 'Success',
         amount_usd: -14700.0
-      },
+      }
     ]
   },
   {
@@ -10188,8 +10189,8 @@ export const mockAccounts: Account[] = [
       fullName: 'Eugene Neuliep L',
       email: 'eu**@gmail.com',
       dateCreated: '10/16/2025', // m/d/y
-      username: "Geno12",
-      password: "Alliyahgeno",
+      username: 'Geno12',
+      password: 'Alliyahgeno'
     },
     bank_details: {
       account_type: 'Checking',
@@ -10365,7 +10366,7 @@ export const mockAccounts: Account[] = [
         description: 'Transfer Payment from Steven Porter - XXXXXXX7562',
         status: 'Success',
         amount_usd: 21650.0
-      },
+      }
     ]
   },
   {
@@ -10373,10 +10374,10 @@ export const mockAccounts: Account[] = [
     holder: {
       fullName: 'Wiswell Eddleman',
       email: 'jo***@gmail.com',
-      mobileNumber: "+1 802-308-****",
+      mobileNumber: '+1 802-308-****',
       dateCreated: '10/24/2025', // m/d/y
-      username: "VeraEddleman2025",
-      password: "Ilovemywife",
+      username: 'VeraEddleman2025',
+      password: 'Ilovemywife'
     },
     bank_details: {
       account_type: 'Checking',
@@ -10390,9 +10391,7 @@ export const mockAccounts: Account[] = [
       lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
       wireDate: true
     },
-    transaction_history: [
-     
-    ]
+    transaction_history: []
   },
   {
     account_id: 'ACC062',
@@ -10400,8 +10399,8 @@ export const mockAccounts: Account[] = [
       fullName: 'Dayelle Ingrid Swensson',
       email: 'da**@gmail.com',
       dateCreated: '10/26/2025', // m/d/y
-      username: "Dayelle2025",
-      password: "Ingrid224$",
+      username: 'Dayelle2025',
+      password: 'Ingrid224$'
     },
     bank_details: {
       account_type: 'Checking',
@@ -10416,7 +10415,7 @@ export const mockAccounts: Account[] = [
       wireDate: true
     },
     transaction_history: [
-     {
+      {
         dateTime: 'October 26, 2025',
         description: 'Transfer from Federal deposit Insurance corp - XXXXXX1290',
         status: 'Success',
@@ -10439,7 +10438,7 @@ export const mockAccounts: Account[] = [
         description: 'Transfer from Federal deposit Insurance corp - XXXXXX5668',
         status: 'Success',
         amount_usd: 75000.0
-      },
+      }
     ]
   },
   {
@@ -10448,12 +10447,12 @@ export const mockAccounts: Account[] = [
       fullName: 'Daniel J Oswald',
       email: 'da**@gmail.com',
       dateCreated: '11/03/2025', // m/d/y
-      username: "Twgbsg21",
-      password: "Crocodile173",
+      username: 'Twgbsg21',
+      password: 'Crocodile173'
     },
     bank_details: {
       account_type: 'Checking',
-      routing_number: "*****0045",
+      routing_number: '*****0045',
       isAccountNumber: true,
       balance_usd: 55650.0
     },
@@ -10465,7 +10464,7 @@ export const mockAccounts: Account[] = [
       wireDate: true
     },
     transaction_history: [
-     {
+      {
         dateTime: 'November 3, 2025',
         description: 'Transfer to PATRICK MILLER - XXXXXX0045',
         status: 'Success',
@@ -10591,7 +10590,7 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         amount_usd: -48000.0
       },
-       {
+      {
         dateTime: 'December 2, 2024',
         description: 'Transfer from Mia Brooks - XXXXXX6111',
         status: 'Success',
@@ -10734,7 +10733,7 @@ export const mockAccounts: Account[] = [
         description: 'Transfer to Ava Schmidt - XXXXXX9072',
         status: 'Success',
         amount_usd: -14700.0
-      },
+      }
     ]
   },
   {
@@ -10743,8 +10742,8 @@ export const mockAccounts: Account[] = [
       fullName: 'Janet Rose',
       email: 'ja**178@gmail.com',
       dateCreated: '11/05/2025', // m/d/y
-      username: "Janetrosellez178",
-      password: "Janetrose@24",
+      username: 'Janetrosellez178',
+      password: 'Janetrose@24'
     },
     bank_details: {
       account_type: 'Checking',
@@ -10956,7 +10955,7 @@ export const mockAccounts: Account[] = [
         description: 'Transfer to Ava Schmidt - XXXXXX9072',
         status: 'Success',
         amount_usd: -14700.0
-      },
+      }
     ]
   },
   {
@@ -10965,8 +10964,8 @@ export const mockAccounts: Account[] = [
       fullName: 'Rickie Alan Stavalone',
       email: 'r**@gmail.com',
       dateCreated: '11/14/2025', // m/d/y
-      username: "RickieAlanStava178",
-      password: "RickAlanStavalone@24",
+      username: 'RickieAlanStava178',
+      password: 'RickAlanStavalone@24'
     },
     bank_details: {
       account_type: 'Checking',
@@ -11217,8 +11216,8 @@ export const mockAccounts: Account[] = [
       fullName: 'Robert Harris Glover',
       email: 'r**@gmail.com',
       dateCreated: '11/18/2025', // m/d/y
-      username: "RobertHarris178",
-      password: "RobeGlov@24",
+      username: 'RobertHarris178',
+      password: 'RobeGlov@24'
     },
     bank_details: {
       account_type: 'Checking',
@@ -11232,14 +11231,14 @@ export const mockAccounts: Account[] = [
       lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
       wireDate: true
     },
-     transaction_history: [
-     {
+    transaction_history: [
+      {
         dateTime: 'November 17, 2025',
         description: 'Installation received by Gem - XXXXXX578463',
         status: 'Success',
         amount_usd: 10000.0
       },
-     {
+      {
         dateTime: 'November 1, 2025',
         description: 'Jenkins saloon payment received - XXXXXX0045',
         status: 'Success',
@@ -11257,7 +11256,7 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         amount_usd: -6500.0
       },
-       {
+      {
         dateTime: 'September 28, 2025',
         description: 'Transfer fee - XXXXXX2363',
         status: 'Success',
@@ -11353,7 +11352,7 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         amount_usd: -48000.0
       },
-       {
+      {
         dateTime: 'December 2, 2024',
         description: 'Transfer from Mia Brooks - XXXXXX6111',
         status: 'Success',
@@ -11484,7 +11483,7 @@ export const mockAccounts: Account[] = [
         description: 'Transfer to Ava Schmidt - XXXXXX9072',
         status: 'Success',
         amount_usd: -14700.0
-      },
+      }
     ]
   },
   {
@@ -11694,7 +11693,7 @@ export const mockAccounts: Account[] = [
         description: 'Nordholm Capital AB (Sweden) ~  Strategic Funding Allocation – Phase I - XXXXXX8654',
         status: 'Success',
         amount_usd: 120000000
-      },
+      }
     ]
   },
   {
@@ -11736,7 +11735,7 @@ export const mockAccounts: Account[] = [
         description: 'Wire Transfer from Christopher Icaza - XXXXXX4663',
         status: 'Success',
         amount_usd: 800000
-      },
+      }
     ]
   },
   {
@@ -11779,7 +11778,7 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         amount_usd: -3000
       },
-        {
+      {
         dateTime: 'March 20, 2024',
         description: 'Transfer fee - XXXXXX8741',
         status: 'Success',
@@ -12326,7 +12325,7 @@ export const mockAccounts: Account[] = [
       }
     ]
   },
-   {
+  {
     account_id: 'ACC073',
     holder: {
       fullName: 'Mark Tall',
@@ -12359,7 +12358,7 @@ export const mockAccounts: Account[] = [
         description: 'Transfer from Mr Cheng Charlie Saephan - XXXXXX2254',
         status: 'Success',
         amount_usd: 750000.0
-      },
+      }
     ]
   }
 ];
